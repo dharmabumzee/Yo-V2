@@ -1,0 +1,30 @@
+* {
+  font-family: "Space Mono", monospace;
+}
+
+.App {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* logo */
+
+#logo {
+  /* background-color: #000; */
+  padding: 1em 0;
+}
+
+#logo img {
+  vertical-align: middle;
+  width: 15%;
+}
+
+/* apod-image mobile-first*/
+
+img {
+  width: 85vw;
+  border-radius: 10px;
+}
