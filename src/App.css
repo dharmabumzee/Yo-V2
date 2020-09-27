@@ -1,5 +1,6 @@
 * {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Mono", monospace !important;
+  background: #f5f4f2;
 }
 
 .App {
@@ -8,6 +9,11 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin: auto;
+}
+
+.content {
+  margin: 0.33rem !important;
 }
 
 /* logo */
@@ -19,12 +25,55 @@
 
 #logo img {
   vertical-align: middle;
-  width: 15%;
+  width: 16%;
 }
 
 /* apod-image mobile-first*/
 
 img {
   width: 85vw;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+/* date */
+
+.date {
+  margin-top: 1em;
+  color: #a19f9f;
+  /* opacity: 0.4; */
+  font-size: 16px;
+}
+
+/* title + copyright */
+
+.desc {
+  margin: auto;
+  padding-top: 2.5em;
+  padding-bottom: 1.5em;
+  color: #111111;
+  font-size: 0.8rem;
+  width: 75%;
+  line-height: 1.5em;
+}
+
+.title {
+  margin-top: 18.224px !important;
+  color: #05293b;
+  font-size: 1.7rem;
+  margin-top: 1.5em;
+}
+
+/* explanation text */
+
+p {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 80px !important;
+  text-align: justify;
+  text-indent: 1em;
+  font-size: 16px;
+  color: #05293b;
+  line-height: 24px;
+  font-weight: 100 !important;
+  opacity: 0.75;
 }
