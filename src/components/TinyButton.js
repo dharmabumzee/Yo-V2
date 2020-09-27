@@ -8,7 +8,7 @@ class TinyButton extends React.Component {
         EasingType="easeInOutQuad"
         StopPosition={0}
         ShowAtPosition={550}
-        AnimationDuration={1500}
+        AnimationDuration={1200}
         className="tinybutton"
       />
     );
