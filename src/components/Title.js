@@ -2,7 +2,7 @@ import React from "react";
 
 const Title = ({ title }) => {
   return (
-    <h1 className="ui header title animated fadeIn delay-1s">
+    <h1 id="title" className="ui header title animated fadeIn delay-1s">
       Astronomy Picture Of The Day
     </h1>
   );
