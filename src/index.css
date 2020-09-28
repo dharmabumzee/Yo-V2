@@ -1,0 +1,181 @@
+/* body */
+
+body.light-mode {
+  background-color: #f5f4f2;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #111;
+  color: #bcbbbb;
+  transition: background-color 0.2s ease;
+}
+
+/* App*/
+body.light-mode div.App {
+  background-color: #f5f4f2;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode div.App {
+  background-color: #111;
+  color: #bcbbbb;
+  transition: background-color 0.2s ease;
+}
+
+/* light mode */
+
+body.light-mode .content,
+body.light-mode .App-content {
+  background-color: #f5f4f2;
+  color: #05293b;
+  transition: background-color 0.3s ease;
+}
+
+/* body.light-mode #logo {
+  background-color: #f5f4f2;
+  color: #333;
+  transition: background-color 0.3s ease;
+} */
+
+body.light-mode p,
+body.light-mode h1,
+body.light-mode .desc,
+body.light-mode a,
+body.light-mode .menu,
+body.light-mode .apod-container {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  transition: background-color 0.3s ease;
+}
+
+body.light-mode img.icon {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  transition: background-color 2s ease !important;
+}
+
+body.light-mode .logo {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  transition: background-color 0.3s ease;
+}
+
+body.light-mode .title {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  transition: background-color 0.3s ease !important;
+}
+
+body.light-mode .icon {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  /* transition: background-color 0.01s ease !important; */
+}
+
+/* */
+
+body.dark-mode img.icon {
+  background-color: transparent !important;
+  color: #bcbbbb !important;
+  /* transition: background-color 0.2s ease !important; */
+}
+
+/* */
+
+body.light-mode .explanation {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  transition: background-color 0.3s ease;
+}
+
+body.light-mode .date {
+  background-color: #f5f4f2;
+  color: #000 !important;
+  transition: background-color 0.3s ease;
+}
+
+body.light-mode .dark-light-toggle {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  transition: background-color 0.3s ease;
+  opacity: 0.9;
+}
+
+/* test start */
+
+body.light-mode .text-explanation,
+body.light-mode .apod-explanation,
+body.light-mode .desc {
+  background-color: #f5f4f2 !important;
+  color: #05293b !important;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode .explanation {
+  background-color: #111;
+  transition: background-color 0.2s ease;
+  color: #b1b0b0 !important;
+}
+
+body.dark-mode .apod-explanation,
+body.dark-mode .desc {
+  background-color: #111111;
+  color: #bcbbbb !important;
+  transition: background-color 0.2s ease;
+}
+
+/* test end */
+
+/* dark mode */
+
+body.dark-mode .content,
+body.dark-mode .App-content {
+  background-color: #111;
+  color: #bcbbbb;
+  transition: background-color 0.2s ease;
+}
+
+body.dark-mode .logo {
+  background-color: #111;
+  color: #bcbbbb;
+  transition: background-color 0.2s ease;
+}
+
+body.dark-mode button {
+  background-color: #111;
+  color: #8f8f8f;
+  transition: background-color 0.2s ease;
+}
+
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode .desc,
+body.dark-mode a,
+/* body.dark-mode .explanation, */
+body.dark-mode .menu,
+
+body.dark-mode .apod-container {
+  background-color: #111;
+  color: #bcbbbb !important;
+  transition: background-color 0.2s ease;
+}
+
+body.dark-mode title {
+  color: #a6a5a5 !important;
+  background-color: #111111;
+  transition: background-color 0.2s ease;
+}
+body.dark-mode .date {
+  background-color: #111;
+  color: #a19f9f;
+  transition: background-color 0.2s ease;
+}
+
+body.dark-mode .dark-light-toggle {
+  background-color: #111;
+  color: #8f8f8f;
+  transition: background-color 0.2s ease;
+}
