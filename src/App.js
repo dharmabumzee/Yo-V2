@@ -7,6 +7,9 @@ import TinyButton from "./components/TinyButton";
 import Apod from "./components/Apod";
 import DarkModeToggle from "./components/DarkModeToggle";
 
+import ImageSearch from "./components/ImageSearch";
+import Route from "./components/Route";
+
 const App = () => {
   return (
     <div className="App">
@@ -14,7 +17,12 @@ const App = () => {
         <Logo />
         <Menu />
         <DarkModeToggle />
-        <Apod />
+        <Route path="/">
+          <Apod />
+        </Route>
+        <Route path="/images">
+          <ImageSearch />
+        </Route>
         <TinyButton />
       </div>
     </div>
