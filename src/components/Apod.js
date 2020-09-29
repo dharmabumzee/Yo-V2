@@ -7,6 +7,8 @@ import PhotoOfTheDay from "./PhotoOfTheDay";
 import Title from "./Title";
 import Explanation from "./Explanation";
 
+// import Spinner from "./Spinner";
+
 const Apod = () => {
   const [result, setResult] = useState([]);
 
@@ -21,20 +23,27 @@ const Apod = () => {
     response();
   }, []);
 
-  const { date, title, url, copyright = "NASA", explanation } = result;
+  const {
+    date,
+    title,
+    url,
+    copyright = "NASA",
+    explanation,
+    media_type,
+  } = result;
 
   return (
-    <>
-      <div>
+    <div className="App-content">
+      <div className="content">
         <Date date={date} />
         <Copyright title={title} copyright={copyright} />
-        <PhotoOfTheDay url={url} title={title} />
+        <PhotoOfTheDay url={url} title={title} mediaType={media_type} />
       </div>
       <div className="ui container apod-container">
         <Title title={title} />
         <Explanation explanation={explanation} />
       </div>
-    </>
+    </div>
   );
 };
 

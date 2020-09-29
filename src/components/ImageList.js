@@ -4,8 +4,9 @@ import ImageCard from "./ImageCard";
 
 const ImageList = ({ results }) => {
   const imageResults = results.map((result, index) => {
-    if (result.links)
-      return <ImageCard key={index} image={result.links[0].href} />;
+    return result.links ? (
+      <ImageCard key={index} image={result.links[0].href} />
+    ) : null;
   });
 
   return <div className="image-list">{imageResults}</div>;

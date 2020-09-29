@@ -12,19 +12,17 @@ import Route from "./components/Route";
 
 const App = () => {
   return (
-    <div className="App">
-      <div className="content">
-        <Logo />
-        <Menu />
-        <DarkModeToggle />
-        <Route path="/">
-          <Apod />
-        </Route>
-        <Route path="/images">
-          <ImageSearch />
-        </Route>
-        <TinyButton />
-      </div>
+    <div className="App ui container">
+      <Logo />
+      <Menu />
+      <DarkModeToggle />
+      <Route path="/">
+        <Apod />
+      </Route>
+      <Route path="/images">
+        <ImageSearch />
+      </Route>
+      <TinyButton />
     </div>
   );
 };

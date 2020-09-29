@@ -1,5 +1,23 @@
 /* body */
 
+body.light-mode #root {
+  background-color: #f5f4f2;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.light-mode #root {
+  background-color: #f5f4f2;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode #root {
+  background-color: #111;
+  color: #bcbbbb;
+  transition: background-color 0.2s ease;
+}
+
 body.light-mode {
   background-color: #f5f4f2;
   color: #333;
