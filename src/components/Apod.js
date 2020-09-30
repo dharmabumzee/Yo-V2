@@ -3,11 +3,9 @@ import axios from "axios";
 
 import Date from "./Date";
 import Copyright from "./Copyright";
-import PhotoOfTheDay from "./PhotoOfTheDay";
+import ImageOrVideo from "./ImageOrVideo";
 import Title from "./Title";
 import Explanation from "./Explanation";
-
-// import Spinner from "./Spinner";
 
 const Apod = () => {
   const [result, setResult] = useState([]);
@@ -37,7 +35,7 @@ const Apod = () => {
       <div className="content">
         <Date date={date} />
         <Copyright title={title} copyright={copyright} />
-        <PhotoOfTheDay url={url} title={title} mediaType={media_type} />
+        <ImageOrVideo url={url} title={title} mediaType={media_type} />
       </div>
       <div className="ui container apod-container">
         <Title title={title} />
