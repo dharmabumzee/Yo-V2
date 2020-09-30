@@ -1,10 +1,10 @@
 import React from "react";
-import { RingLoader } from "react-spinners";
+import { BeatLoader } from "react-spinners";
 
 const Spinner = () => {
   return (
-    <div className="spinner">
-      <RingLoader color={"#1eaedb"} size={150} margin={"10px"} />
+    <div className="loading spinner">
+      <BeatLoader color={"#1eaedb"} size={15} margin={"2px"} />
     </div>
   );
 };
