@@ -38,7 +38,7 @@ const Apod = () => {
         <ImageOrVideo url={url} title={title} mediaType={media_type} />
       </div>
       <div className="ui container apod-container">
-        <Title title={title} />
+        <Title />
         <Explanation explanation={explanation} />
       </div>
     </div>
