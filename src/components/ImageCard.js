@@ -25,6 +25,7 @@ class ImageCard extends React.Component {
     const { description } = this.props.image;
     return (
       <div
+        className="image-card animated fadeIn"
         style={{
           gridRowEnd: `span ${this.state.spans}`,
         }}
